@@ -2,8 +2,8 @@
 
 int main(int tuoi, char *argv[]) 
     void *ten=argv[1];
-    printf("Xin chao %s", ten);
     printf("Ban bao nhieu tuoi? ");
     scanf("%d\n",tuoi);
+    printf("Xin chao %s", ten, tuoi);
     return 0;
 }
