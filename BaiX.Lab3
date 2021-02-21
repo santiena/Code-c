@@ -1,34 +1,6 @@
 #include <stdio.h>
 
-int main(int tuoi, char *argv[]) //Khai bao int va char cho Bai3.4, bat dau tu dong 31
-{
-    /*Bai thuc hanh BaiX_Lab3: Bai3.1*/
-    double chieudai, chieurong, chuvi, dientich;
-    chieudai=2.5;
-    chieurong=3.5;
-    chuvi=(chieudai+chieurong)*2;
-    dientich=chieudai*chieurong;
-    printf("Chu vi cua hinh chu nhat co chieu dai %.1f va chieu rong %.1f la %.1f\n",chieudai, chieurong, chuvi);
-    printf("Dien tich cua hinh chu nhat co chieu dai %.1f va chieu rong %.1f la %.1f\n",chieudai, chieurong, dientich);
-
-    /*Bai thuc hanh BaiX.Lab3: Bai3.2*/
-    enum Company{GOOGLE=1, FACEBOOK, XEROX,YAHOO, EBAY, MICROSOFT};
-
-    /*Bai thuc hanh BaiX.Lab3: Bai3.3*/
-    enum Company google=GOOGLE;
-    enum Company facebook=FACEBOOK;
-    enum Company xerox=XEROX;
-    enum Company yahoo=YAHOO;
-    enum Company ebay=EBAY;
-    enum Company microsoft=MICROSOFT;
-    printf("The value of google is: %d\n", google);
-    printf("The value of facebook is: %d\n", facebook);
-    printf("The value of xerox is: %d\n", xerox);
-    printf("The value of yahoo is: %d\n", yahoo);
-    printf("The value of ebay is: %d\n", ebay);
-    printf("The value of microsoft is: %d\n", microsoft);
-
-    /*Bai thuc hanh BaiX.Lab3: Bai 3.4*/
+int main(int tuoi, char *argv[]) 
     void *ten=argv[1];
     printf("Xin chao %s", ten);
     printf("Ban bao nhieu tuoi? ");
